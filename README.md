@@ -22,7 +22,7 @@ You must have the following tools installed on your system:
 
 1. Clone and place the Makefile in the folder you want to setup your new project.
 
-2. To set up a new project, run the make init command with two variables: PROJECT_NAME and PACKAGES.
+2. To set up a new project, run the make new-project command with two variables: PROJECT_NAME and PACKAGES.
 
   #### Command Syntax:
 
@@ -38,7 +38,7 @@ You must have the following tools installed on your system:
 
 To create a project named nlp-chatbot and install spacy and transformers, run:
 
-  `make init PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers"`
+  `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers"`
   
 3. The command will create the directory, set up the environment, and initialize a local Git repository with an initial commit. If the directory already exists, the script will abort to prevent overwriting.
 
