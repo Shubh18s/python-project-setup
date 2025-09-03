@@ -45,4 +45,3 @@ To create a project named nlp-chatbot and install spacy and transformers, run:
 4. After the command finishes, you will need to activate the virtual environment manually. To do this, run the following command from your terminal:
    
 `cd <your_project_name> && source .venv/bin/activate`
-**
