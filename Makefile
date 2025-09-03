@@ -1,5 +1,9 @@
 # Makefile for creating a new ML/AI project structure with uv and Git.
 #
+# Author: Shubhdeep Singh
+# Date: 2025-09-03
+# Version: 1.0.0
+#
 # Usage:
 #   make new-project PROJECT_NAME="your-project-name" [PACKAGES="package1 package2 ..."]
 #
