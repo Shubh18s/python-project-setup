@@ -33,8 +33,8 @@ You must have the following tools installed on your system:
 - <your_project_name>: The name of the directory you want to create for your new project.
     
 - <list_of_packages>: A space-separated list of Python packages to install in your virtual environment.
-    
-  #### Example:
+
+#### Example:
 
 To create a project named nlp-chatbot and install spacy and transformers, run:
 
