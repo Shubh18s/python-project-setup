@@ -34,7 +34,7 @@ You must have the following tools installed on your system:
     
 - <list_of_packages>: A space-separated list of Python packages to install in your virtual environment.
     
-### Example:
+  ##### Example:
 
 To create a project named nlp-chatbot and install spacy and transformers, run:
 
