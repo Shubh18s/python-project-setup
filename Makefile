@@ -89,5 +89,6 @@ new-project:
 	@echo "4. Link the remote and push your initial commit:"
 	@echo "   git remote add origin <your-remote-repository-url>"
 	@echo "   git branch -M main"
+	@echo "   git pull origin main --allow-unrelated-histories (Only if created repo on GitHub web)"
 	@echo "   git push -u origin main"
 	@echo "------------------------------------------------------"
