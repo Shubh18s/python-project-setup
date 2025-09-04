@@ -79,7 +79,7 @@ new-project:
 	@echo "--------------------Next steps:-----------------------"
 	@echo "------------------------------------------------------"
 	@echo "1. Navigate into your new project:"
-	@echo "   cd $(LOCATION)/$(PROJECT_NAME)"
+	@echo "   cd $(LOCATION)$(PROJECT_NAME)"
 	@echo "2. Activate the virtual environment:"
 	@echo "   - On macOS/Linux: source .venv/bin/activate"
 	@echo "   - On Windows (Cmd): .venv\\Scripts\\activate"

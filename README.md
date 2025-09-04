@@ -20,9 +20,9 @@ You must have the following tools installed on your system:
     
 ### Usage
 
-1. Clone the repository.
+1. Clone the repository and cd 
 
-2. To set up a new project, run the `make new-project ...` command with three variables: PROJECT_NAME, PACKAGES and LOCATION.
+2. Once inside the cloned repo, run the `make new-project ...` command with three variables: PROJECT_NAME, PACKAGES and LOCATION to create a new project.
 
   #### Command Syntax:
 
