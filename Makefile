@@ -75,11 +75,11 @@ new-project:
 
 # 8. Print completion message and next steps for the user.
 	@echo "$(COLOR_GREEN) Project '$(PROJECT_NAME)' created successfully! $(COLOR_RESET)"
-	@echo "----------------------------------------------"
-	@echo "----------------Next steps:-------------------"
-	@echo "----------------------------------------------"
+	@echo "------------------------------------------------------"
+	@echo "--------------------Next steps:-----------------------"
+	@echo "------------------------------------------------------"
 	@echo "1. Navigate into your new project:"
-	@echo "   cd $(realpath $(LOCATION))/$(PROJECT_NAME)"
+	@echo "   cd $(LOCATION)/$(PROJECT_NAME)"
 	@echo "2. Activate the virtual environment:"
 	@echo "   - On macOS/Linux: source .venv/bin/activate"
 	@echo "   - On Windows (Cmd): .venv\\Scripts\\activate"
@@ -90,3 +90,4 @@ new-project:
 	@echo "   git remote add origin <your-remote-repository-url>"
 	@echo "   git branch -M main"
 	@echo "   git push -u origin main"
+	@echo "------------------------------------------------------"

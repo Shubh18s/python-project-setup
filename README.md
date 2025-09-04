@@ -34,13 +34,14 @@ You must have the following tools installed on your system:
     
 - <list_of_packages> (Optional): A space-separated list of Python packages to install in your virtual environment.
 
-- <folder_path> (Optional): The location where to create project. Defaults to the parent directory oject clone. Can be relative path to Makefile location (eg. - ../). For windows, use forward slash notation (eg. C:/Users/singh/repos)
+- <folder_path> (Optional): The location where to create new project. Defaults to the parent directory of `python-project-setup` folder. User can provide relative path to Makefile location (eg. - ../). 
+  Note: For windows using git bash, use forward slash notation (eg. C:/Users/singh/repos)
 
 #### Example:
 
-To create a project named nlp-chatbot and install spacy and transformers, run:
+To create a project named nlp-chatbot at location 'C:/Users/singh/repos'and install spacy and transformers using bash, run:
 
-  `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION=".."`
+  `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION="C:/Users/singh/repos"`
   
 3. The command will create the directory, set up the environment, and initialize a local Git repository with an initial commit. If the directory already exists, the script will abort to prevent overwriting.
 
