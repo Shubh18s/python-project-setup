@@ -1,7 +1,7 @@
 # Makefile for creating a new ML/AI project structure with uv and Git.
 #
 # Author: 
-# Date: 2025-09-03
+# Date: 2025-09-04
 # Version: 1.0.0
 #
 # Usage:

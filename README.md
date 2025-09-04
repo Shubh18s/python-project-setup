@@ -30,7 +30,7 @@ You must have the following tools installed on your system:
 
   `make new-project PROJECT_NAME=<your_project_name> PACKAGES=<list_of_packages> LOCATION=<folder_path>`
 
-- For Windows users, please use Git Bash or a similar Unix-like terminal.
+- For Windows users, please use `git bash` or a similar Unix-like terminal.
 
 - <your_project_name>: The name of the directory you want to create for your new project.
     
@@ -42,7 +42,7 @@ You must have the following tools installed on your system:
 
 To create a project named nlp-chatbot and install spacy and transformers, run:
 
-  `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION="..""`
+  `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION=".."`
   
 3. The command will create the directory, set up the environment, and initialize a local Git repository with an initial commit. If the directory already exists, the script will abort to prevent overwriting.
 
