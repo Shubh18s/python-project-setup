@@ -5,10 +5,10 @@
 # Version: 1.0.0
 #
 # Usage:
-#   make new-project PROJECT_NAME="your-project-name" [PACKAGES="package1 package2 ..."]
+#   make new-project PROJECT_NAME="your-project-name" [PACKAGES="package1 package2 ..."] LOCATION="C:/Users/singh/my-folder"
 #
 # Example:
-#   make new-project PROJECT_NAME="image-classifier" PACKAGES="torch torchvision Pillow jupyter tqdm openai sentence-transformers"
+#   make new-project PROJECT_NAME="image-classifier" PACKAGES="torch torchvision Pillow jupyter tqdm openai sentence-transformers" LOCATION=".."
 #
 # Variables:
 #   PROJECT_NAME: (Required) The name of the new project directory.
