@@ -22,24 +22,23 @@ You must have the following tools installed on your system:
 
 1. Clone the repository and cd 
 
-2. Once inside the cloned repo, run the `make new-project ...` command with three variables: PROJECT_NAME, PACKAGES and LOCATION to create a new project.
+2. Once inside the cloned repo, run the `make new-project ...` command to create a new Python project.
 
   #### Command Syntax:
 
   `make new-project PROJECT_NAME=<your_project_name> PACKAGES=<list_of_packages> LOCATION=<folder_path>`
 
-- For Windows users, please use `git bash` or a similar Unix-like terminal.
+  - For Windows users, please use `git bash` or a similar Unix-like terminal.
 
-- <your_project_name>: The name of the directory you want to create for your new project.
-    
-- <list_of_packages> (Optional): A space-separated list of Python packages to install in your virtual environment.
+  - PROJECT_NAME: (Required) The name of the directory you want to create for your new project.
+      
+  - PACKAGES: (Optional) A space-separated list of Python packages to install in your virtual environment. If missing, installs default packages (jupyter numpy pandas matplotlib)
 
-- <folder_path> (Optional): The location where to create new project. Defaults to the parent directory of `python-project-setup` folder. User can provide relative path to Makefile location (eg. - ../). 
-  Note: For windows using git bash, use forward slash notation (eg. C:/Users/singh/repos)
+  - LOCATION: (Optional) The location where you want to create the new project. Defaults to the parent directory of `python-project-setup` folder. User can provide relative path to Makefile location (eg. - ../). For windows use forward slash notation (eg. C:/Users/singh/repos) in Git bash.
 
-### Example:
+  #### Example:
 
-To create a project named 'nlp-chatbot' at location 'C:/Users/singh/repos'and install spacy and transformers using bash, run:
+  To create a project named 'nlp-chatbot' at location 'C:/Users/singh/repos'and install spacy and transformers using bash, run:
 
   `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION="C:/Users/singh/repos"`
   
