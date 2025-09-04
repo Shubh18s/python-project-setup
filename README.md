@@ -2,7 +2,7 @@
 
 This project uses a Makefile to automate the setup of a new ML/AI project environment. It creates a new project directory, initializes a uv virtual environment, installs specified packages, and sets up a Git repository.
 
-### Prerequisites
+## Prerequisites
 
 You must have the following tools installed on your system:
 
@@ -18,7 +18,7 @@ You must have the following tools installed on your system:
 
 - Git: The python-project-setup will setup the git repository and make initial commit which requires Git.
     
-### Usage
+## Usage
 
 1. Clone the repository and cd 
 
@@ -37,13 +37,13 @@ You must have the following tools installed on your system:
 - <folder_path> (Optional): The location where to create new project. Defaults to the parent directory of `python-project-setup` folder. User can provide relative path to Makefile location (eg. - ../). 
   Note: For windows using git bash, use forward slash notation (eg. C:/Users/singh/repos)
 
-#### Example:
+### Example:
 
-To create a project named nlp-chatbot at location 'C:/Users/singh/repos'and install spacy and transformers using bash, run:
+To create a project named 'nlp-chatbot' at location 'C:/Users/singh/repos'and install spacy and transformers using bash, run:
 
   `make new-project PROJECT_NAME=nlp-chatbot PACKAGES="spacy transformers" LOCATION="C:/Users/singh/repos"`
   
 3. The command will create the directory, set up the environment, and initialize a local Git repository with an initial commit. If the directory already exists, the script will abort to prevent overwriting.
 
-4. After the command finishes, you will need to activate the virtual environment manually. To do this, follow the Next Steps provided.
+4. Follow the Next Steps to start using the project.
 
