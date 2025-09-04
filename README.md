@@ -8,13 +8,11 @@ You must have the following tools installed on your system:
 
 - make: A build automation tool, typically pre-installed on Unix-like systems.
 
-  #### Windows - 
   To install Make on Windows, you can use a package manager like Chocolatey. Run `choco install make` in an elevated command prompt.
 
   Alternatively, the `make` utility is included with Git Bash, which is recommended for running this `Makefile` on Windows.
 
-  To install Make on windows you can also download make Setup Program from `https://gnuwin32.sourceforge.net/packages/make.htm` and set the Path Variable to include location to bin folder
-  eg. `C:\Program Files (x86)\GnuWin32\bin.`
+  You can also download make Setup Program from `https://gnuwin32.sourceforge.net/packages/make.htm` and set the Path Variable to include location to bin folder (eg. `C:\Program Files (x86)\GnuWin32\bin.`).
   
 - uv: A fast Python package installer and virtual environment creator. You can install it with pip: `pip install uv.`
 
